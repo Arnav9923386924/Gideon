@@ -1,41 +1,41 @@
-# Gideon
+Gideon – ERP-Powered AI Assistant
 
-Gideon is an AI-driven assistant integrated directly into Odoo ERP to automate financial analysis, document understanding, and inventory intelligence within secure on-premise infrastructure.
-The system leverages Llama 3 (8B) via Ollama, RAG pipelines, modular Docker-based architecture, and ERP-aware LLM function calling to deliver enterprise-ready automation.
+Gideon is an AI-driven assistant integrated into Odoo ERP to automate financial analysis, document intelligence, and inventory optimization within secure on-premise infrastructure.
+It leverages Llama 3 (8B) via Ollama, RAG pipelines, a modular Docker-based architecture, and ERP-aware LLM function calling to deliver enterprise-ready automation.
 
 📄 Accepted for publication at IEEE PuneCon 2025
 
 🚀 Key Features
 💰 AI-Powered Expense Analysis
 
-Automatically analyzes overall, approved, and pending expenses
+Analyzes overall, approved, and pending expenses
 
-Identifies monthly, quarterly, and yearly trends
+Detects monthly, quarterly, and yearly financial trends
 
-Generates interpretable summaries to assist financial decision-makers
+Generates interpretable insights for data-driven financial decisions
 
 📁 Document Intelligence + Conversational Querying
 
-Supports PDF, Word, Excel, and text documents
+Supports PDF, Word, Excel, and text file formats
 
-Extracts structured + unstructured data (text, tables)
+Extracts text, tables, and structured data
 
-Uses embeddings + semantic search for LLM-powered RAG
+Uses embeddings + semantic search for retrieval augmented responses
 
-Provides citation-backed responses to natural language queries
+Provides citation-backed answers to natural language queries
 
 📊 Inventory Intelligence
 
-ABC Classification for value-based inventory segmentation
+Performs ABC Classification for value-based inventory segmentation
 
-Product Reorder Recommendations using stock-level trends and lead times
+Generates product reorder suggestions using stock levels, demand patterns, and lead times
 
-Inventory Turnover Analysis to identify fast/slow-moving products
+Computes inventory turnover ratios to identify slow- and fast-moving items
 
 📦 ERP Data Mapping
 
-Maps extracted document data into Odoo modules (Sales, HR, Inventory, Accounting)
+Maps extracted information into Odoo modules (Sales, HR, Inventory, Accounting)
 
-Requires user confirmation → preventing incorrect entries
+Includes confirmation checkpoints to prevent incorrect entries
 
-Ensures auditability and traceability within ERP workflows
+Ensures complete auditability and traceability across workflows

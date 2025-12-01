@@ -7,6 +7,27 @@ It leverages **Llama 3 (8B)** via Ollama, **RAG pipelines**, a modular **Docker-
 
 ---
 
+## 💡 Motivation
+
+Traditional ERP systems are powerful but lack intelligent automation for unstructured documents, financial summaries, 
+and inventory decisions. Organizations often rely on manual data entry, repeated validation, and fragmented insights 
+across modules.
+
+Gideon bridges this gap by embedding AI-driven reasoning directly inside Odoo ERP — enabling automated document 
+understanding, financial analytics, and inventory optimization, all within secure on-premise environments.
+
+---
+
+## 🎯 Objectives
+
+- Integrate AI capabilities natively within Odoo ERP  
+- Automate financial decision-making and reduce manual analysis  
+- Enable AI-driven extraction and mapping of unstructured business documents  
+- Improve inventory planning using intelligent insights and recommendations  
+- Maintain full privacy, auditability, and control through on-prem LLM deployment  
+
+---
+
 ## 🚀 Key Features
 
 ### 💰 AI-Powered Expense Analysis
@@ -35,6 +56,17 @@ It leverages **Llama 3 (8B)** via Ollama, **RAG pipelines**, a modular **Docker-
 - Maps extracted data into **Sales, HR, Inventory, Accounting** modules  
 - Includes **user confirmation checkpoints** to prevent incorrect entries  
 - Ensures **auditability and traceability** across workflows  
+
+---
+
+## ✨ Feature Highlights (Quick Summary)
+
+- Automated expense analytics and trend detection  
+- Document ingestion with intelligent extraction & validation  
+- Natural language querying with citation-backed responses  
+- ABC analysis, reorder suggestions, and turnover insights  
+- Secure data mapping into ERP modules  
+- Hybrid LLM routing for privacy-aware model selection  
 
 ---
 
@@ -90,19 +122,28 @@ Once running:
 
 ---
 
-## 💡 Motivation
-
-Traditional ERP systems lack intelligent automation for unstructured documents,
-financial summaries, and inventory decision-making.  
-Gideon bridges this gap by integrating LLM intelligence directly inside ERP workflows,
-running fully on-prem to meet enterprise privacy requirements.
-
----
-
 ## 🧪 Future Enhancements
 
 - Voice-enabled conversational interface  
 - Financial forecasting using time-series models  
 - Support for multi-LLM routing (Claude, GPT, Phi)  
 - Zero-shot document classification for automation  
-- RAG caching and performance optimization  
+- RAG caching and performance optimization
+
+---
+
+## ⚠️ Current Limitations
+
+- Requires on-prem GPU/CPU resources for Llama 3 inference  
+- Performance may vary with large or noisy documents  
+- Real-time forecasting not fully implemented yet  
+- Multi-user concurrency is supported but not fully optimized  
+
+---
+## 👥 Target Users
+
+- Finance teams using Odoo ERP  
+- Inventory and operations managers  
+- Enterprises needing on-prem AI solutions  
+- Research groups exploring ERP + LLM integration  
+- Developers building intelligent automation inside ERP systems  
